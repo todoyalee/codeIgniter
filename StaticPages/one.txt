@@ -13,5 +13,17 @@ http://example.com/[controller-class]/[controller-method]/[arguments]
 
 
 
+
 As URL schemes become more complex, this may change. But for now, this is all we will need to know.
+
+
+
+News section
+In the last section, we went over some basic concepts of the framework by writing a class that includes static pages. We cleaned up the URI by adding custom routing rules. Now it’s time to introduce dynamic content and start using a database.
+
+Setting up your model
+Instead of writing database operations right in the controller, queries should be placed in a model, so they can easily be reused later. Models are the place where you retrieve, insert, and update information in your database or other data stores. They represent your data.
+
+
+
 
